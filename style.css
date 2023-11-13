@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+header,
+main {
+  display: flex;
+}
+
+main {
+  font-size: 20px;
+}
+
+#name{
+  padding: 30px;
+}
+
+
