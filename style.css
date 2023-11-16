@@ -3,17 +3,31 @@ body {
   color: white;
 }
 
-header,
-main {
+header {
   display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 15px;
+}
+h1 {
+  font-size: 36px;
+}
+
+button {
+  padding: 13px;
+  border-radius: 50px;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
 }
 
 main {
   font-size: 20px;
 }
 
-#name{
-  padding: 30px;
+#title {
+  color: aqua;
 }
-
-
