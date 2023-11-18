@@ -1,15 +1,21 @@
-section {
+body {
+  background-color: whitesmoke;
+  color: white;
+  margin: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+main{
+  margin: 45px;
+}
+.conteiner {
+  box-shadow: 0 0 30px gray;
   width: 960px;
   background-color: black;
   margin: auto;
-  
 }
 
-body {
-  background-color: lightslategray;
-  color: white;
-  margin: 120px ;
-}
+
 
 header {
   display: flex;
@@ -17,9 +23,6 @@ header {
   padding: 20px;
 }
 
-main {
-  padding: 0 45px 10px;
-}
 h1 {
   font-size: 36px;
 }
@@ -36,7 +39,7 @@ img {
 }
 
 #title {
-  color: rgb(0, 0, 255);
+  color: rgb(0, 229, 255);
   margin-bottom: 25px;
 }
 
@@ -48,4 +51,14 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.hb {
+  margin: 10px;
 }
