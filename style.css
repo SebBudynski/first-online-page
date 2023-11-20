@@ -5,26 +5,33 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-main{
-  margin: 45px;
-}
 .conteiner {
   box-shadow: 0 0 30px gray;
   width: 960px;
   background-color: black;
   margin: auto;
+  padding: 20px 45px;
 }
 
+section {
+  padding-bottom: 40px;
+}
 
-
+#hobbies,
 header {
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 h1 {
   font-size: 36px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
@@ -32,9 +39,23 @@ button {
   border-radius: 50px;
 }
 
-img {
-  width: 180px;
-  height: 180px;
+header ul {
+  list-style: none;
+  line-height: 35px;
+}
+
+header address {
+  margin-left: -35px;
+}
+
+.hb img {
+  margin: 10px;
+}
+
+header img {
+  margin: 30px;
+  width: 160px;
+  height: 170px;
   border-radius: 50%;
 }
 
@@ -43,22 +64,8 @@ img {
   margin-bottom: 25px;
 }
 
-#main-info {
-  line-height: 35px;
-}
-
 #name {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-#hobbies {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.hb {
-  margin: 10px;
 }
