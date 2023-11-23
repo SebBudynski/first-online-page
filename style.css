@@ -10,8 +10,11 @@
   padding: 0;
 }
 
-body {
+html{
   background: radial-gradient(hsl(215, 95%, 16%), hsl(238, 96%, 71%));
+}
+
+body {
   color: var(--color-text);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -94,7 +97,7 @@ main ul {
     top: 0%;
   }
   to {
-    top: 110%;
+    top: 150%;
   }
 }
 
