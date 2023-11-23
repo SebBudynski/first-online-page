@@ -10,7 +10,7 @@
   padding: 0;
 }
 
-html{
+html, body{
   background: radial-gradient(hsl(215, 95%, 16%), hsl(238, 96%, 71%));
 }
 
