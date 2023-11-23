@@ -141,7 +141,7 @@ main ul {
 
 /* phone */
 @media screen and (max-width: 767px) {
-  #snow-container {
+  body {
   height: 800px;
   width: 767px;
   }
