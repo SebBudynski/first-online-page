@@ -22,7 +22,7 @@ body {
 .wrapper{
   width: 100%;
   overflow-x: auto;
-  border: 50px solid red;
+  border: 1px solid blue;
 }
 .conteiner {
   box-shadow: 0 0 30px black;
