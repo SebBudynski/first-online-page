@@ -22,6 +22,7 @@ body {
 .wrapper{
   width: 100%;
   overflow-x: auto;
+  border: 5px solid red;
 }
 .conteiner {
   box-shadow: 0 0 30px black;
@@ -100,7 +101,7 @@ main ul {
     top: 0%;
   }
   to {
-    top: 150%;
+    top: 100%;
   }
 }
 
@@ -146,12 +147,12 @@ main ul {
 }
 
 /* phone */
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   body {
     max-height: 800px;
     width: 767px;
   }
-}
+} */
 
 /*tablet*/
 /* @media screen and (min-width: 768px) and (max-width: 1199px) {
