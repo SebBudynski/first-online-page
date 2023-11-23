@@ -14,7 +14,7 @@ body {
   background: radial-gradient(hsl(215, 95%, 16%), hsl(238, 96%, 71%));
   color: var(--color-text);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  max-height:100%;
+  max-height:1200px;
 }
 
 .conteiner {
