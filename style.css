@@ -1,3 +1,9 @@
+:root{
+  --color-text: gray;
+  --color-cv: #030f29;
+  --color-title: hwb(200 0% 0%);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,14 +12,15 @@
 
 body {
   background: radial-gradient(hsl(215, 95%, 16%), hsl(238, 96%, 71%));
-  color: gray;
+  color: var(--color-text);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  max-height:100%;
 }
 
 .conteiner {
   box-shadow: 0 0 30px black;
   width: 960px;
-  background-color: #030f29;
+  background-color: var(--color-cv);
   margin: 40px auto;
   padding: 20px 45px;
 }
@@ -50,7 +57,7 @@ h3 {
 button {
   padding: 13px;
   border-radius: 50px;
-  background-color: gray;
+  background-color: var(--color-text);
 }
 
 header ul {
@@ -67,7 +74,7 @@ header img {
 }
 
 #title {
-  color: hwb(200 0% 0%);
+  color: var(--color-title);
   padding: 30px;
 }
 
