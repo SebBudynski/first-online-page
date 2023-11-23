@@ -19,7 +19,10 @@ body {
   color: var(--color-text);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-
+.wrapper{
+  width: 100%;
+  overflow-x: auto;
+}
 .conteiner {
   box-shadow: 0 0 30px black;
   width: 960px;
