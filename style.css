@@ -1,4 +1,4 @@
-:root{
+:root {
   --color-text: gray;
   --color-cv: #030f29;
   --color-title: hwb(200 0% 0%);
@@ -10,11 +10,12 @@
   padding: 0;
 }
 
-html, body{
+html {
   background: radial-gradient(hsl(215, 95%, 16%), hsl(238, 96%, 71%));
 }
 
 body {
+  background: radial-gradient(hsl(215, 95%, 16%), hsl(238, 96%, 71%));
   color: var(--color-text);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -91,7 +92,6 @@ main ul {
   padding: 10px 20px;
 }
 
-
 @keyframes fall {
   from {
     top: 0%;
@@ -145,8 +145,8 @@ main ul {
 /* phone */
 @media screen and (max-width: 767px) {
   body {
-  max-height: 800px;
-  width: 767px;
+    max-height: 800px;
+    width: 767px;
   }
 }
 
