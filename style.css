@@ -81,7 +81,8 @@ header img {
 
 #title {
   color: var(--color-title);
-  padding: 30px;
+  padding: 35px;
+  font-size: 26px;
 }
 
 #name {
@@ -135,7 +136,7 @@ main ul {
   position: absolute;
   padding: 0 50px;
   top: 0%;
-  animation: fall 20s 0s 1 linear forwards;
+  animation: fall 15s 0s 1 linear forwards;
 }
 
 .flake-container img {
